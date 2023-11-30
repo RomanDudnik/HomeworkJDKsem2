@@ -1,7 +1,7 @@
 package project;
 
 public class Fullstacker extends Developer implements BackendAction, FrontendAction {
-    private Frontender frontender = new Frontender() {
+    private final Frontender frontender = new Frontender() {
         @Override
         public void developGUI() {
             System.out.println("Frontender is developing the GUI");
