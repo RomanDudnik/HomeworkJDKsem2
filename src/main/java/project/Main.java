@@ -7,10 +7,11 @@ package project;
 public class Main {
     public static void main(String[] args) {
         Fullstacker fullstacker = new Fullstacker();
-        fullstacker.front(); // Вызов метода front
-        fullstacker.back(); // Вызов метода back
+        Frontender frontender = new Frontender();
+        fullstacker.setFrontender(frontender); // Присваиваем объект Frontender
 
-        // Вызов метода developGUI на объекте типа Frontender
-        fullstacker.developGUI();
+        fullstacker.back();
+        fullstacker.front();
+        fullstacker.developGUI(); // Вызываем метод developGUI()
     }
 }
