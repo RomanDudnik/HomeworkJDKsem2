@@ -42,7 +42,7 @@ public class Ball extends Sprite {
     }
 
     @Override
-    public void render(MainCanvas canvar, Graphics g) {
+    public void render(MainCanvas canvas, Graphics g) {
         g.setColor(color);
         g.fillOval((int) getLeft(), (int) getTop(),
                 (int) getWidth(),(int)getHeight());

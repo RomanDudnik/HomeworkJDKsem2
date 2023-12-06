@@ -14,7 +14,7 @@ public class MainWindow extends JFrame implements CanvasReapaintListner {
     private static final int POS_X = 400;
     private static final int POS_Y = 200;
     private final Interactable[] interactables = new Interactable[10];
-    private Background backgroud;
+    private final Background backgroud;
 
     private MainWindow() {
         setDefaultCloseOperation(EXIT_ON_CLOSE);

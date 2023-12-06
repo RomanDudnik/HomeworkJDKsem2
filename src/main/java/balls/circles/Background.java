@@ -15,6 +15,7 @@ public class Background implements Interactable {
         int red = Math.round(AMPLITUDE +AMPLITUDE*(float) Math.sin(time*2f));
         int green = Math.round(AMPLITUDE +AMPLITUDE*(float) Math.sin(time*3f));
         int blue = Math.round(AMPLITUDE +AMPLITUDE*(float) Math.sin(time));
+
         color = new Color(red,green,blue);
     }
 
